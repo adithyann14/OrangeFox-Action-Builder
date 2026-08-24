@@ -28,15 +28,15 @@ on:
       DEVICE_PATH:
         description: 'Specify your Device Path'
         required: true
-        default: 'device/xiaomi/pipa'
+        default: 'device/xiaomi/sky'
       DEVICE_NAME:
         description: 'Specify your Device Codename'
         required: true
-        default: 'pipa'
+        default: 'sky'
       BUILD_TARGET:
         description: 'Specify your Build Target'
         required: true
-        default: 'boot'
+        default: 'recovery'
         type: choice
         options:
         - boot
