@@ -28,7 +28,7 @@ on:
         default: 'android-12.1'
         type: choice
         options:
-        - android-12.1
+        - fox_16.0
         - Nosdhax
       DEVICE_PATH:
         description: 'Specify your Device Path'
